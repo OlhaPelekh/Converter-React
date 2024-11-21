@@ -5,7 +5,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header.js";
 import Footer from "./components/Footer/Footer.js";
-import HomePage from "./containers/HomePage.js";
+import HomePage from "./containers/HomePage/HomePage.js";
 import ServicesPage from "./containers/ServicesPage.js";
 import ConverterPage from "./containers/ConverterPage.js";
 import ContactsPage from "./containers/ContactsPage.js";

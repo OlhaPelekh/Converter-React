@@ -11,6 +11,7 @@ function Header() {
           <img src={logo} alt="Logo" />
           Чіп Чендж
         </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             <Nav.Link as={Link} to="/services" className="nav-link-custom">
