@@ -1,0 +1,37 @@
+
+  .converter-page-section {
+    background-color: #F6F7FF;
+    height: 557px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .converter-page-section_container {
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    max-width: 962px;
+    min-height: 397px;
+    border-radius: 4px;
+    padding: 53px 68px 55px 65px;
+  }
+
+  .conversion-history-section {
+    background-color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .conversion-history-section_container{
+    margin: 0px auto;
+    background-color:#F6F7FF;
+    max-width: 962px;
+    padding: 40px 68px 58px 65px;
+  }
+  /* .history-item {
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .history-item:hover {
+    background-color: #e9ecef;
+  }
+   */

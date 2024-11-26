@@ -2,13 +2,7 @@
   height: 224px;
   background-color: #f6f7ff;
   padding-top: 53px;
-}
-.nav-link-custom{
-  margin: 0px;
-  padding: 0px;
-}
-.nav-link-custom:not(:last-child) {
-  margin-right: 15px;
+  font-family:'Roboto', sans-serif;
 }
 
 .footer_container {
@@ -16,32 +10,110 @@
 }
 .footer_row {
   justify-content:center;
+  gap: 55px;
 }
 .footer_info {
 }
+.navbar-brand-custom-footer{
+  color: #1F1E25;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700; 
+  font-size: 20px;   
+  line-height: 24px; 
+  display: flex;
+  align-items: center;
+}
+.navbar-brand-custom-footer-img{
+  margin-right: 11px;
+}
+.footer_info-brand{
+  margin-bottom: 18px;
+}
+.footer_info-title{
+  color: #707f87;
+  font-weight: 400; 
+  font-size: 12px;   
+  line-height: 17px; 
+  margin-bottom: 0px;
+}
 .footer_services {
-  margin-top: 7px;
+  /* margin-top: 7px; */
+}
+.nav-link-custom-footer{
+  color: #707C87;
+  font-weight: 500; 
+  font-size: 16px;   
+  line-height: 23px; 
 }
 .footer_phone-support {
-  margin-top: 7px;
+  display: flex;
+  /* margin-top: 7px; */
 }
-.footer_phone {
-  margin-top: 7px;
+.footer_phone-support-container{
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.1rem; */
 }
-.footer_social-networks {
-  margin-top: 7px;
+.footer_phone-support-icon{
+  color:#1F1E25;
+  margin-right: 19px;
+}
+.footer_phone-support-phone{
+  color: #1F1E25;
+  font-weight: 500; 
+  font-size: 16px;   
+  line-height: 23px; 
+}
+.footer_phone-support-text{
+  color: #707C87;
+  font-weight: 400; 
+  font-size: 12px;   
+  line-height: 17px; 
 }
 
-.footer-text {
+.footer_phone {
+  display: flex;
+  /* margin-top: 7px; */
+}
+.footer_phone-container{
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.1rem; */
+}
+.footer_phone-icon{
+  color:#1F1E25;
+  margin-right: 17px;
+}
+.footer_phone-phone{
+  color: #1F1E25;
+  font-weight: 500; 
+  font-size: 16px;   
+  line-height: 23px; 
+}
+.footer_phone-text{
+  color: #707C87;
+  font-weight: 400; 
+  font-size: 12px;   
+  line-height: 17px; 
+}
+
+.footer_social-networks {
+  /* margin-top: 7px; */
+}
+.nav-link-custom-social-networks{
+  color: #1F1E25;
+}
+
+/* .footer-text {
   font-size: 14px;
   color: #6c757d;
-}
+} */
 
-.footer-link {
+/* .footer-link {
   font-size: 14px;
   color: #007bff;
-}
+} */
 
-.footer-link:hover {
+/* .footer-link:hover {
   text-decoration: underline;
-}
+} */

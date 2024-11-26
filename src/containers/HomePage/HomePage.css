@@ -2,46 +2,6 @@
   margin: 0px;
   padding: 0px;
 }
-.homepage-background {
-  background: url("../../assets/images/main.png") no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  height: 400px;
-  padding-top: 85px;
-  padding-bottom: 99px;
-  /* font-family: 'Arial', sans-serif; */
-}
-
-.homepage-background_chip-title {
-  font-weight: 700px;
-  font-size: 54px;
-  line-height: 64px;
-  margin-bottom: 25px;
-  color: #f6f7ff;
-}
-
-.homepage-background_chip-description {
-  font-weight: 500px;
-  font-size: 20px;
-  line-height: 24px;
-  margin-bottom: 29px;
-  color: #e0e1ea;
-}
-.homepage-background_chip-button {
-  width: 234px;
-  height: 53px;
-  border-radius: 4px;
-  background-color: #f6f7ff;
-  font-weight: 500px;
-  font-size: 18px;
-  line-height: 21px;
-  color: #707c87;
-  padding: 0px;
-}
-.homepage-background_chip-img {
-  /* width: 341px; */
-  height: 216px;
-}
 
 .homepage-section {
   background-color: #ffffff;
