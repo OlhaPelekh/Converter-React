@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Col, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import {
@@ -89,11 +90,11 @@ function FooterPage() {
           </Col>
           <Col className="footer_social-networks" lg={2}>
             <Nav>
-
               <Nav.Link
                 as={Link}
                 to="https://www.facebook.com"
                 className="nav-link-custom-social-networks"
+                 aria-label="Facebook"
               >
                 <FaFacebookF />
               </Nav.Link>
@@ -101,6 +102,7 @@ function FooterPage() {
                 as={Link}
                 to="https://www.instagram.com"
                 className="nav-link-custom-social-networks"
+                aria-label="Instagram"
               >
                 <FaInstagram />
               </Nav.Link>
@@ -108,6 +110,7 @@ function FooterPage() {
                 as={Link}
                 to="https://www.twitter.com"
                 className="nav-link-custom-social-networks"
+                aria-label="Twitter"
               >
                 <FaTwitter />
               </Nav.Link>
@@ -115,6 +118,7 @@ function FooterPage() {
                 as={Link}
                 to="https://www.youtube.com"
                 className="nav-link-custom-social-networks"
+                aria-label="YouTube"
               >
                 <FaYoutube />
               </Nav.Link>
