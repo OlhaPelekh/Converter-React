@@ -1,16 +1,16 @@
 import React from 'react';
-import { Container, Row, Col, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import {
   FaPhoneAlt,
   FaFacebookF,
   FaInstagram,
   FaTwitter,
   FaYoutube,
-} from "react-icons/fa";
-import { IoIosPhonePortrait } from "react-icons/io";
-import "./Footer.css";
-import logo from "../../assets/icons/logo.png";
+} from 'react-icons/fa';
+import { IoIosPhonePortrait } from 'react-icons/io';
+import './Footer.css';
+import logo from '../../assets/icons/logo.png';
 
 function FooterPage() {
   return (
@@ -34,7 +34,8 @@ function FooterPage() {
             </div>
             <p className="footer_info-title">
               04128, м.Київ, вул. Хрещатик, 19 <br />
-              Ліцензія НБУ №156 <br />© ПАТ "Чіп Чендж", 2019-2023
+              Ліцензія НБУ №156 <br />
+              &copy; ПАТ &quot;Чіп Чендж&quot;, 2019-2023
             </p>
           </Col>
           <Col className="footer_services" lg={2}>
@@ -80,9 +81,7 @@ function FooterPage() {
           <Col className="footer_phone" lg={2}>
             <FaPhoneAlt className="footer_phone-icon" size={18.5} />
             <div className="footer_phone-container">
-              <p className="footer_phone-phone mb-1">
-                8 800 111 22 33
-              </p>
+              <p className="footer_phone-phone mb-1">8 800 111 22 33</p>
               <p className="footer_phone-text mb-0">
                 Безкоштовно для дзвінків в межах України
               </p>
@@ -94,7 +93,7 @@ function FooterPage() {
                 as={Link}
                 to="https://www.facebook.com"
                 className="nav-link-custom-social-networks"
-                 aria-label="Facebook"
+                aria-label="Facebook"
               >
                 <FaFacebookF />
               </Nav.Link>

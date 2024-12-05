@@ -1,8 +1,11 @@
+import React from 'react';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Main.css";
+import { useNavigate } from "react-router-dom"; 
 import card from "../../assets/images/standard-mastercard-card.png";
 
 function Main() {
+  const navigate = useNavigate(); 
   return (
       <div className="homepage-background">
         <Container className="homepage-background_container ">
@@ -15,8 +18,8 @@ function Main() {
               <Button
                 className="homepage-background_chip-button"
                 variant="primary"
+                onClick={() => navigate("/converter")}
               >
-                {" "}
                 Конвертер валют
               </Button>
             </Col>

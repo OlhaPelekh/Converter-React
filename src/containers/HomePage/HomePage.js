@@ -1,9 +1,12 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React from 'react';
+import  { Container, Row, Col, Button } from "react-bootstrap";
 import "./HomePage.css";
+import { useNavigate } from "react-router-dom"; 
 import home_content from "../../assets/images/home-content.png";
 import Main from "../../components/Main/Main.js";
 
 function HomePage() {
+  const navigate = useNavigate(); 
   return (
     <main>
       <Main />
@@ -24,6 +27,7 @@ function HomePage() {
               <Button
                 className="homepage-section_converter-button"
                 variant="primary"
+                onClick={() => navigate("/converter")}
               >
                 Конвертувати валюту
               </Button>
